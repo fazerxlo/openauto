@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>720</width>
     <height>480</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>800</width>
+    <width>720</width>
     <height>480</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>800</width>
+    <width>720</width>
     <height>480</height>
    </size>
   </property>
@@ -32,7 +32,7 @@ color: rgb(238, 238, 236);</string>
   <widget class="QPushButton" name="pushButtonSave">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>460</x>
      <y>430</y>
      <width>161</width>
      <height>41</height>
@@ -48,8 +48,8 @@ color: rgb(238, 238, 236);</string>
   <widget class="QPushButton" name="pushButtonCancel">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>330</y>
+     <x>120</x>
+     <y>430</y>
      <width>161</width>
      <height>41</height>
     </rect>
@@ -70,11 +70,11 @@ color: rgb(238, 238, 236);</string>
      <x>0</x>
      <y>0</y>
      <width>621</width>
-     <height>481</height>
+     <height>421</height>
     </rect>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="tabGeneral">
     <attribute name="title">
@@ -140,9 +140,9 @@ color: rgb(238, 238, 236);</string>
     <widget class="QGroupBox" name="groupBoxResolution">
      <property name="geometry">
       <rect>
-       <x>0</x>
-       <y>80</y>
-       <width>621</width>
+       <x>200</x>
+       <y>10</y>
+       <width>411</width>
        <height>141</height>
       </rect>
      </property>
@@ -193,7 +193,7 @@ color: rgb(238, 238, 236);</string>
        <rect>
         <x>50</x>
         <y>60</y>
-        <width>561</width>
+        <width>341</width>
         <height>71</height>
        </rect>
       </property>
@@ -226,8 +226,8 @@ color: rgb(238, 238, 236);</string>
       <rect>
        <x>0</x>
        <y>10</y>
-       <width>621</width>
-       <height>61</height>
+       <width>191</width>
+       <height>141</height>
       </rect>
      </property>
      <property name="title">
@@ -236,7 +236,7 @@ color: rgb(238, 238, 236);</string>
      <widget class="QRadioButton" name="radioButton60FPS">
       <property name="geometry">
        <rect>
-        <x>120</x>
+        <x>100</x>
         <y>30</y>
         <width>81</width>
         <height>23</height>
@@ -264,8 +264,8 @@ color: rgb(238, 238, 236);</string>
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>230</y>
-       <width>621</width>
+       <y>160</y>
+       <width>611</width>
        <height>121</height>
       </rect>
      </property>
@@ -378,8 +378,8 @@ color: rgb(238, 238, 236);</string>
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>360</y>
-       <width>621</width>
+       <y>290</y>
+       <width>611</width>
        <height>81</height>
       </rect>
      </property>
@@ -426,7 +426,7 @@ color: rgb(238, 238, 236);</string>
       <rect>
        <x>-1</x>
        <y>10</y>
-       <width>621</width>
+       <width>611</width>
        <height>111</height>
       </rect>
      </property>
@@ -491,7 +491,7 @@ color: rgb(238, 238, 236);</string>
       <rect>
        <x>0</x>
        <y>130</y>
-       <width>621</width>
+       <width>611</width>
        <height>61</height>
       </rect>
      </property>
@@ -548,8 +548,8 @@ color: rgb(238, 238, 236);</string>
       <rect>
        <x>0</x>
        <y>70</y>
-       <width>621</width>
-       <height>381</height>
+       <width>611</width>
+       <height>311</height>
       </rect>
      </property>
      <property name="selectionMode">
@@ -780,7 +780,7 @@ color: rgb(238, 238, 236);</string>
     <widget class="QPushButton" name="pushButtonSelectAll">
      <property name="geometry">
       <rect>
-       <x>490</x>
+       <x>470</x>
        <y>80</y>
        <width>121</width>
        <height>41</height>
@@ -796,8 +796,8 @@ color: rgb(238, 238, 236);</string>
     <widget class="QPushButton" name="pushButtonClearSelection">
      <property name="geometry">
       <rect>
-       <x>490</x>
-       <y>140</y>
+       <x>470</x>
+       <y>130</y>
        <width>121</width>
        <height>41</height>
       </rect>
@@ -812,8 +812,8 @@ color: rgb(238, 238, 236);</string>
     <widget class="QPushButton" name="pushButtonShowBindings">
      <property name="geometry">
       <rect>
-       <x>490</x>
-       <y>200</y>
+       <x>470</x>
+       <y>180</y>
        <width>121</width>
        <height>41</height>
       </rect>
@@ -975,8 +975,8 @@ color: rgb(238, 238, 236);</string>
   <widget class="QPushButton" name="pushButtonResetToDefaults">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>380</y>
+     <x>290</x>
+     <y>430</y>
      <width>161</width>
      <height>41</height>
     </rect>

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>720</width>
     <height>480</height>
    </rect>
   </property>
@@ -47,8 +47,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonSettings">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>330</y>
+      <x>370</x>
+      <y>380</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -66,7 +66,7 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonExit">
     <property name="geometry">
      <rect>
-      <x>630</x>
+      <x>540</x>
       <y>380</y>
       <width>161</width>
       <height>41</height>
@@ -92,19 +92,6 @@ color: rgb(238, 238, 236);</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-style:italic; color:#eeeeec;&quot;&gt;Plug in your device to start AndroidAuto (tm).&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="labelProjectHomePage">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>440</y>
-      <width>271</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/f1xpl/openauto&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;https://github.com/f1xpl/openauto&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="labelDistractionWarningIcon">
     <property name="geometry">
      <rect>
@@ -123,7 +110,7 @@ color: rgb(238, 238, 236);</string>
      <rect>
       <x>80</x>
       <y>130</y>
-      <width>531</width>
+      <width>611</width>
       <height>101</height>
      </rect>
     </property>
@@ -139,7 +126,7 @@ color: rgb(238, 238, 236);</string>
      <rect>
       <x>80</x>
       <y>240</y>
-      <width>531</width>
+      <width>611</width>
       <height>121</height>
      </rect>
     </property>
@@ -166,8 +153,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QLabel" name="labelCopyrightsInfoIcon">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>440</y>
+      <x>320</x>
+      <y>430</y>
       <width>21</width>
       <height>31</height>
      </rect>
@@ -179,8 +166,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QLabel" name="labelTrademark">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>440</y>
+      <x>350</x>
+      <y>430</y>
       <width>351</width>
       <height>31</height>
      </rect>
@@ -192,8 +179,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonToggleCursor">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>230</y>
+      <x>30</x>
+      <y>380</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -211,8 +198,8 @@ color: rgb(238, 238, 236);</string>
    <widget class="QPushButton" name="pushButtonWirelessConnection">
     <property name="geometry">
      <rect>
-      <x>630</x>
-      <y>280</y>
+      <x>200</x>
+      <y>380</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -227,20 +214,17 @@ color: rgb(238, 238, 236);</string>
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QPushButton" name="youTubebutton">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>370</y>
-      <width>551</width>
-      <height>61</height>
+      <x>30</x>
+      <y>430</y>
+      <width>88</width>
+      <height>34</height>
      </rect>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;If you are looking for a Raspberry PI compatible 12V power supply equipped with an ignition switch, visit &lt;/span&gt;&lt;a href=&quot;https://bluewavestudio.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;https://bluewavestudio.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="wordWrap">
-     <bool>true</bool>
+     <string>YouTube</string>
     </property>
    </widget>
   </widget>

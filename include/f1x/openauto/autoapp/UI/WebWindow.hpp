@@ -18,42 +18,44 @@
 
 #pragma once
 
-#include <memory>
-#include <QMainWindow>
+#include <QUrl>
+#include <QWidget>
+#include <QWebEngineProfile>
 
 namespace Ui
 {
-class MainWindow;
+    class WebWindow;
 }
 
 namespace f1x
 {
-namespace openauto
-{
-namespace autoapp
-{
-namespace ui
-{
+    namespace openauto
+    {
+        namespace autoapp
+        {
+            namespace ui
+            {
 
-class MainWindow : public QMainWindow
-{
-    Q_OBJECT
-public:
-    explicit MainWindow(QWidget *parent = nullptr);
-    ~MainWindow() override;
+                class WebWindow : public QWidget
+                {
+                Q_OBJECT
+                public:
+                    explicit WebWindow(QWidget *parent = nullptr);
+                    ~WebWindow() override;
 
-signals:
-    void exit();
-    void openSettings();
-    void toggleCursor();
-    void openConnectDialog();
-    void openYoutube();
+                private slots:
+                    void onExit();
+                    void onHome();
 
-private:
-    Ui::MainWindow* ui_;
-};
 
-}
-}
-}
+                private:
+                    void showEvent(QShowEvent* event);
+                    void load();
+                    QUrl youtubeUrl;
+                    Ui::WebWindow* ui_;
+                };
+
+            }
+        }
+    }
 }
